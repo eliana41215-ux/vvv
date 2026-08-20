@@ -1,0 +1,13 @@
+.hero {
+  position: relative;
+  display: block;
+  min-height: 640px;
+  background: linear-gradient(90deg, rgba(25,25,25,.82) 0%, rgba(25,25,25,.58) 46%, rgba(25,25,25,.1) 100%), url('public/assets/fachada-oficina.jpeg') center/cover;
+}
+.hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(0,0,0,.27), transparent 48%); }
+.hero-copy { position: relative; z-index: 1; color: white; max-width: 750px; }
+.hero .eyebrow { color: var(--sun); }
+.hero .intro { color: #f4f4f2; }
+.hero .text-link { color: white; }
+.hero-art { display: none; }
+@media (max-width:720px) { .hero { min-height: 580px; background-position: 58% center; } }

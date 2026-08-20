@@ -1,0 +1,10 @@
+.contact-details {
+  display: grid;
+  gap: 13px;
+  margin-top: 30px;
+  font-size: .86rem;
+}
+.contact-details a, .contact-details p { display: block; max-width: none !important; margin: 0 !important; color: var(--ink); text-decoration: none; }
+.contact-details strong { display: block; margin-bottom: 2px; color: #777; font-size: .63rem; letter-spacing: .12em; text-transform: uppercase; }
+.socials { display: flex; gap: 18px; margin-top: 6px; }
+.socials a { font-size: .78rem; font-weight: 700; }
